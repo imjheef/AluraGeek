@@ -1,5 +1,16 @@
 .contact_us{
     display: flex;
+    justify-content: center;
+    
     flex-flow: column wrap;
     background-color: rgba(255, 0, 0, 0.18);
+}
+
+.contact_us_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    gap: 0.625rem;
+    
 }
