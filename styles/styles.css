@@ -51,7 +51,7 @@ header button:hover{
 
 /* *HERO */
 main {
-	background: no-repeat url("../images/hero.svg");
+	/* background: no-repeat url("../images/hero.svg"); */
 	display: flex;
 	height: 22rem;
 	padding: 2rem;
