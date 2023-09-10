@@ -1,0 +1,16 @@
+.star_wars h1 {
+    text-align:center;
+    margin: 1rem 0;
+}
+
+.star_wars_items {
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+}
+
+.star_wars_items a {
+	color: #2a7ae4;
+	text-decoration: none;
+	font-weight: 700;
+}
