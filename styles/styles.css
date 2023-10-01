@@ -25,13 +25,16 @@ header button {
 }
 
 header button:hover {
-	background: rgb(42, 122, 230, 10%);
+	background-color: rgb(42, 122, 230, 10%);
 }
 
 .search_btn {
 	display: flex;
-	background: center no-repeat url('../images/search-icon.svg') #a2a2a23f;
+	background-image: url('../images/search-icon.svg');
+	background-repeat: no-repeat;
+	background-color: #a2a2a23f;
 	background-position-x: 19rem;
+	background-position-y: center;
 	border: none;
 	border-radius: 1rem;
 	padding: 0.5rem 6rem;
@@ -40,38 +43,57 @@ header button:hover {
 
 .search_btn::placeholder {
 	padding: 5px;
-}
+} /**/
+
 /* *MAIN */
 main h1,
-p {
+main p {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #fff;
 }
 
-button {
+.hero_content {
+}
+
+.price-color {
+	color: #228f18;
+}
+
+main button {
 	color: #fff;
 	width: 8rem;
-	height: 2rem;
+	height: 3rem;
 	background-color: #2a7ae4;
 	border: none;
-	border-radius: 4px;
-}
-/*  */
+} /**/
 
 /* *HERO */
 main {
-	background: no-repeat url('../images/Hero.png');
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0) 41.15%,
+		rgba(0, 0, 0, 0.8) 100%
+	);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgb(67, 122, 67);
+	background-size: cover;
+	background-image: url('../images/Hero.png');
 	display: flex;
 	height: 22rem;
 	padding: 2rem;
+	align-items: end;
+}
+.hero_content {
+	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
 	gap: 1rem;
-	align-self: stretch;
-} /*  */
+	margin-left: 4rem;
+}
+/**/
 
+/** CONTENT */
 .diverse,
 .star_wars,
 .consoles {
@@ -87,6 +109,10 @@ main {
 .diverse_items {
 	display: flex;
 }
+/** Price color */
+b {
+	color: #228f18;
+} /**/
 
 .logo {
 	display: flex;
@@ -98,10 +124,9 @@ main {
 }
 
 /* * CONSOLES */
-
 .consoles_items {
 	display: flex;
-	gap: 2rem;
+	gap: 1rem;
 	justify-content: center;
 	flex-wrap: wrap;
 }
@@ -115,17 +140,16 @@ main {
 .consoles h1 {
 	padding: 1rem;
 	text-align: center;
-}
-/**/
+} /**/
 
 /* * DIVERSE */
 .diverse_items {
 	display: flex;
-	gap: 2rem;
+	gap: 1rem;
 	width: 100%;
 	justify-content: center;
 	flex-wrap: wrap;
-}
+} /**/
 
 .diverse_items a {
 	color: #2a7ae4;
@@ -136,31 +160,31 @@ main {
 .diverse h1 {
 	padding: 1rem;
 	text-align: center;
-}
-
-/**/
+} /**/
 
 /* * STAR WARS */
-
-.star_wars h1 {
-	text-align: center;
-	margin: 1rem 0;
+.title_see_all {
+	display: flex;
+	justify-content: space-between;
+	margin: auto 5rem;
+	align-items: center;
 }
 
 .star_wars_items {
 	display: flex;
-	gap: 2rem;
+	gap: 1rem;
 	justify-content: center;
 	flex-wrap: wrap;
+	flex: 1 0 0;
 }
 
 .star_wars_items a {
 	color: #2a7ae4;
 	text-decoration: none;
 	font-weight: 700;
-}
+} /**/
 
-/**/
+/** END of CONTENT */
 
 /* * FOOTER */
 
