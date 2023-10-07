@@ -1,5 +1,4 @@
 * {
-	/* box-sizing: border-box; */
 	padding: 0;
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
@@ -23,7 +22,6 @@ header button {
 	border: solid 1px #2a7ae4;
 	background: #fff;
 	cursor: pointer;
-	/* transition: ease 200ms; */
 }
 
 header button:hover {
@@ -103,6 +101,16 @@ main {
 }
 /**/
 
+.title_view_all {
+	display: flex;
+	width: 1130px;
+	max-width: 100%;
+	margin: auto;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+}
+
 .title_view_all > a {
 	background-image: url(/images/arrow.svg);
 	background-repeat: no-repeat;
@@ -112,6 +120,12 @@ main {
 	text-decoration: none;
 	font-weight: 700;
 	align-items: center;
+}
+
+.title_view_all a:hover {
+	border: solid 1px #2a7ae4;
+	border-radius: 8px;
+	padding: 12px;
 }
 
 /** CONTENT */
@@ -126,7 +140,6 @@ main {
 .items_card:hover {
 	box-shadow: 0px 10px 10px rgba(100, 100, 100, 0.2);
 	transform: scale(1.02);
-	transition: all 0.15s ease-in-out;
 }
 .diverse,
 .star_wars,
@@ -186,14 +199,6 @@ b {
 } /**/
 
 /* * STAR WARS */
-.title_view_all {
-	display: flex;
-	width: 1130px;
-	max-width: 100%;
-	margin: auto;
-	align-items: center;
-	justify-content: space-between;
-}
 
 .star_wars_items {
 	gap: 1rem;
@@ -238,7 +243,6 @@ div > img {
 	color: #464646;
 	font-weight: 500;
 	padding: 12px;
-	transition: ease 200ms;
 	text-decoration: none;
 }
 
