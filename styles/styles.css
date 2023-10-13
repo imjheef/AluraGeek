@@ -238,10 +238,6 @@ b {
 	background-color: #eaf2fd;
 }
 
-.contact_us_container {
-	display: flex;
-}
-
 .contact_us_links {
 	display: flex;
 	flex-direction: column;
