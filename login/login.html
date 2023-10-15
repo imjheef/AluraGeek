@@ -17,56 +17,77 @@
 <body>
     <header>
         <div class="logo">
-            <img
-                src="../images/Logologo.svg"
-                alt="AluraGeek logo" />
-
+            <a 
+            href="../index.html">
+                <img
+                src="./images/Logologo.svg"
+        
+                alt="AluraGeek logo" /></a>
+            <input
+                class="search_btn"
+                type="search"
+                name="search"
+                placeholder="Search products"
+                id="search" />
         </div>
-        <button>Login</button>
+        <button> 
+        <a href="../login/login.html">Login
+                </button>
+            </a>
     </header>
 
-    <main class="login">
-        <form> 
-            <h3>Login</h3>
-            <input placeholder="Enter your Email" type="email" label="email" name="Email" id="user-email">
-            
-            <input placeholder="Enter your password" type="password" name="Password" id="user-password">
+<main class="login">
+    <form> 
+        <h3>Login</h3>
+            <input 
+            required 
+            placeholder="Enter your Email" 
+            type="email" 
+            label="email" 
+            name="Email" 
+            id="user-email">
+            <input 
+            required 
+            placeholder="Enter your password" 
+            type="password" 
+            name="Password" 
+            id="user-password">
 
             <button>Login</button>
-        </form>
+    </form>
 
-    </main>
+</main>
 
-		<section class="contact_us">
-				<img
-					src="../images/Logologo.svg"
-					alt="AluraGeek logo" />
+<section class="contact_us">
+        <img
+            src="../images/Logologo.svg"
+            alt="AluraGeek logo" />
 
-				<div class="contact_us_links">
-					<a href="#">Who are we</a>
-					<a href="#">Privacy Policy</a>
-					<a href="#">Fidelity program</a>
-					<a href="#">Our Stores</a>
-					<a href="#">I want to franchise</a>
-					<a href="#">Announce here</a>
-				</div>
-			</div>
+        <div class="contact_us_links">
+            <a href="#">Who are we</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Fidelity program</a>
+            <a href="#">Our Stores</a>
+            <a href="#">I want to franchise</a>
+            <a href="#">Announce here</a>
+        </div>
+    </div>
 
-			<div class="contact_us_form">
-				<h3>Contact us</h3>
-				<input
-					type="text"
-					placeholder="Type your name" />
+    <div class="contact_us_form">
+        <h3>Contact us</h3>
+        <input
+            type="text"
+            placeholder="Type your name" />
 
-				<textarea
-					name="subject"
-					placeholder="Type your message here"
-					id="subject"
-					cols="30"
-					rows="5"></textarea>
-				<button>Send message</button>
-			</div>
-		</section>
+        <textarea
+            name="subject"
+            placeholder="Type your message here"
+            id="subject"
+            cols="30"
+            rows="5"></textarea>
+        <button>Send message</button>
+    </div>
+</section>
 
 		<footer>
 			<h4>Presented by Alura Latam. Code by Jheferson</h4>

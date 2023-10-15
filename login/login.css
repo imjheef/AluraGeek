@@ -2,14 +2,17 @@ header button {
 	display: none;
 }
 
-.login {
+body {
 	display: flex;
-	/* width: 1440px; */
-	padding-top: 0px;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.login {
+	display: flex;
+	height: 435px;
+	justify-content: center;
 	align-items: center;
-	gap: 92px;
 	background-color: #f5f5f5;
 }
 
@@ -17,14 +20,14 @@ header button {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	padding: 50px;
+	padding: 50px 0;
 }
 
 .login form button {
 	cursor: pointer;
 	border: none;
 	height: 40px;
-	width: 100%;
+	width: 120px;
 	background: #2a7ae4;
 	color: #fff;
 }
