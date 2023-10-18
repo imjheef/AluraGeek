@@ -18,15 +18,20 @@ header {
 }
 
 header button {
-	cursor: pointer;
-	border: none;
-	/* padding: 0 120px; */
-	height: 40px;
-	width: 120px;
 	color: #fff;
+	padding: 12px 35px;
+	border: solid 1px #2a7ae4;
+	cursor: pointer;
+	display: flex;
+}
+
+header button a {
+	color: #2a7ae4;
+	text-decoration: none;
 }
 
 header button:hover {
+	border-color: none;
 	background-color: rgb(42, 122, 230, 10%);
 }
 
@@ -237,11 +242,21 @@ b {
 .contact_us {
 	display: flex;
 	padding: 64px;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	gap: 115px;
+	gap: 110px;
 	align-self: stretch;
 	background-color: #eaf2fd;
+}
+
+.logo_links_wrapper {
+	display: flex;
+	/* border: red solid; */
+	width: 400px;
+	gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .contact_us img {
@@ -252,7 +267,7 @@ b {
 	display: flex;
 	width: 176px;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	gap: 24px;
 	flex-shrink: 0;
 }
