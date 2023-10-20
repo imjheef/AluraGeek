@@ -324,9 +324,10 @@ textarea {
 
 footer {
 	display: flex;
+	margin: auto;
 	height: 80px;
 	align-items: center;
-	margin: auto;
+	justify-content: center;
 }
 
 /**/
