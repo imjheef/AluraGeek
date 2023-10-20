@@ -1,0 +1,9 @@
+@import url(/styles/styles.css);
+@import url(/styles/contact.css);
+footer {
+	display: flex;
+	margin: auto;
+	height: 80px;
+	align-items: center;
+	justify-content: center;
+}
