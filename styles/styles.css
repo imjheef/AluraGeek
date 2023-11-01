@@ -6,8 +6,8 @@
 }
 
 /* *MAIN */
-main h1,
-main p {
+.hero_content h1,
+.hero_content p {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #fff;
