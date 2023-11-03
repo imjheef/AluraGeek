@@ -1,3 +1,8 @@
+*{
+	box-sizing: border-box;
+
+}
+
 .contact_us {
 	display: flex;
 	padding: 64px;
@@ -16,6 +21,7 @@
 	gap: 30px;
 	flex-wrap: wrap;
 	justify-content: center;
+	
 }
 
 .contact_us img {
