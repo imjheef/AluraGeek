@@ -10,15 +10,17 @@ header {
 	margin: auto;
 }
 
-header button {
+header .btn_login {
 	color: #fff;
 	padding: 12px 35px;
 	border: solid 1px #2a7ae4;
 	cursor: pointer;
 	display: flex;
+	color: #2a7ae4;
+	text-decoration: none;
 }
 
-header button a {
+header .btn_login {
 	color: #2a7ae4;
 	text-decoration: none;
 }
