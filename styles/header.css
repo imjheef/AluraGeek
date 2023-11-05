@@ -25,7 +25,7 @@ header .btn_login {
 	text-decoration: none;
 }
 
-header button:hover {
+header .btn_login:hover {
 	border-color: none;
 	background-color: rgb(42, 122, 230, 10%);
 }
