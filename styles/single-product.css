@@ -1,3 +1,31 @@
-main{
-    height: 90vh;
+.product_container {
+	/* background-color: #f2f2f2; */
+	margin: 24px;
+}
+
+main {
+	display: flex;
+	max-width: 100%;
+	gap: 12px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+main img {
+	width: clamp(500px, 400px, 400px);
+	border-radius: 12px;
+	margin: 12px;
+}
+
+.product_info {
+	display: flex;
+	gap: 12px;
+	flex-direction: column;
+	height: auto;
+	justify-content: center;
+	width: 450px;
+	text-wrap: pretty;
+	font-size: 14px;
+	margin: 0 12px;
 }
