@@ -1,12 +1,11 @@
 .product_container {
-	/* background-color: #f2f2f2; */
-	margin: 24px;
+	margin: 30px 8px;
 }
 
 main {
 	display: flex;
 	max-width: 100%;
-	gap: 12px;
+	gap: 8px;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -28,4 +27,11 @@ main img {
 	text-wrap: pretty;
 	font-size: 14px;
 	margin: 0 12px;
+}
+
+@media (max-width: 768px) {
+	.product_container :nth-child(5),
+	.product_container :nth-child(6) {
+		display: none;
+	}
 }
